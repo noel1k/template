@@ -1,35 +1,35 @@
-
 #
-#Noel Rafferty
+# Noel Rafferty
 #
-#As COMPUTER SCIENCE
+# As COMPUTER SCIENCE
 
+def three():
+    try:
+        pass
+    except Exception as e:
+        print("Error Occurred:", e)
 
-def three:
-    pass
-except Exception as e:
-    print("Error Occured:", e)
-
-def two:
-    pass
-except Exception as e:
-    print("Error Occured:", e)
+def two():
+    try:
+        pass
+    except Exception as e:
+        print("Error Occurred:", e)
 
 def one():
-    pass
-except Exception as e:
-    print("Error Occured:", e)
-
+    try:
+        pass
+    except Exception as e:
+        print("Error Occurred:", e)
 
 def main():
     try:
+        three()
+        two()
+        one()
+    except Exception as e:
+        print("Error Occurred:", e)
 
-
-    
-    pass
-except Exception as e:
-    print("Error Occured:", e)
-if(__name__ == "__main__"):
+if __name__ == "__main__":
     main()
 
 
