@@ -7,12 +7,18 @@
 
 def three:
     pass
+except Exception as e:
+    print("Error Occured:", e)
 
 def two:
     pass
+except Exception as e:
+    print("Error Occured:", e)
 
 def one():
     pass
+except Exception as e:
+    print("Error Occured:", e)
 
 
 def main():
@@ -23,5 +29,7 @@ def main():
     pass
 except Exception as e:
     print("Error Occured:", e)
-if()
+if(__name__ == "__main__"):
+    main()
+
 
